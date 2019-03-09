@@ -19,7 +19,8 @@ iex(3)> flush
  <<0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0,
    0, 0, 0, 2, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0,
    ...>>}
-
+iex(4)> Ecall.Audio.close_device(pid)
+:ok
 ```
 
 handling the phone call using minicom (an incomming call)
