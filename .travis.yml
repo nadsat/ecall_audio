@@ -11,9 +11,6 @@ matrix:
         - os: linux
           compiler: gcc
           env: ERLANG_VERSION=21.2 ELIXIR_VERSION=1.7.4-otp-21
-        - os: linux
-          compiler: gcc
-          env: ERLANG_VERSION=21.0 ELIXIR_VERSION=1.6.6-otp-21
 
 
 before_install:
@@ -45,4 +42,3 @@ script:
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then
       ECALL_AUDIO_PORT=tnt0 ECALL_SIM_PORT=tnt1 mix test;
     fi
-  - if (elixir -v | grep 1.7); then mix docs; mix format --check-formatted; fi
