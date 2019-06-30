@@ -36,7 +36,7 @@ defmodule Ecall.Audio.MixProject do
   defp package() do
     [
       licenses: ["Apache-2.0"],
-      links: %{"GitHub" => "https://github.com/nadsat/ecall_control"}
+      links: %{"GitHub" => "https://github.com/nadsat/ecall_audio"}
     ]
   end
 end
