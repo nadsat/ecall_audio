@@ -30,7 +30,7 @@ defmodule Ecall.Audio.MixProject do
   end
 
   defp description() do
-    "Make phone calls using AT commands."
+    "Read and write audio over serial port."
   end
 
   defp package() do
