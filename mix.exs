@@ -1,6 +1,6 @@
 defmodule Ecall.Audio.MixProject do
   use Mix.Project
-  @version "0.0.1"
+  @version "0.0.2"
   def project do
     [
       app: :ecall_audio,
